@@ -1,7 +1,7 @@
 # SQL-Server-Tasks – ITI Course with Eng. Rami
 
 <p align="center">
-  <img src="[Images/banner_image.png](https://github.com/a7medhazem/SQL-SERVER-TASKS/blob/main/Images/SQL_BANNER.png)" alt="SQL Server Tasks Banner">
+  <img src="Images/SQL_BANNER.png" alt="SQL Server Tasks Banner">
 </p>
 
 This repository includes a complete set of SQL Server tasks and concepts based on the YouTube course by **Eng. Rami** from the **ITI** program.  
