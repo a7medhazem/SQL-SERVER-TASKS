@@ -57,10 +57,11 @@ having avg(Salary) <(select avg(salary) from Employee);
 --and within each department, ordered alphabetically by last name, first name.
 
 select Fname,Lname,Dname,Pname
-from Employee e inner join Departments d
-on e.Dno=d.Dnum
-inner join Project p
-on  p.Dnum=d.Dnum order by Dname,Fname,Lname;
+from Employee e
+join Works_for w on e.SSN = w.ESSn
+join Departments d on e.Dno=d.Dnum
+join Project p on  p.Dnum=d.Dnum 
+order by Dname,Fname,Lname;
 
 -------------------------------------------------------------------------------------------
 --8.Try to get the max 2 salaries using subquery
